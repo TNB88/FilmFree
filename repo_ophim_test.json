@@ -1,0 +1,8 @@
+{
+    "name":  "FilmFree OPhim Test",
+    "description":  "Test one fixed provider before applying to all FilmFree sources",
+    "manifestVersion":  1,
+    "pluginLists":  [
+                        "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/plugins_ophim_test.json"
+                    ]
+}
