@@ -2,32 +2,32 @@
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/AnimeHayProvider.cs3",
         "status":  1,
-        "version":  20,
+        "version":  21,
         "name":  "AnimeHayProvider",
         "internalName":  "AnimeHayProvider",
         "authors":  [
                         "anhdaden"
                     ],
-        "fileSize":  43968,
+        "fileSize":  43947,
         "repositoryUrl":  "https://t.me/cs3vn",
         "tvTypes":  [
                         "Anime"
                     ],
         "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/animehay.ico",
         "apiVersion":  1,
-        "fileHash":  "sha256-ed18e4ab4f2d279554a90a1ba1c9699593fde980585032615591ab6c81f5c412"
+        "fileHash":  "sha256-3d8c8370d7cbe9d8c4df830dac331add82c4f0de779d917669f4c739ddb55413"
     },
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/BluPhimProvider.cs3",
         "status":  1,
-        "version":  26,
+        "version":  27,
         "name":  "BluPhimProvider",
         "internalName":  "BluPhimProvider",
         "authors":  [
                         "anhdaden"
                     ],
         "description":  "FullHD",
-        "fileSize":  50523,
+        "fileSize":  50528,
         "repositoryUrl":  "https://t.me/cs3vn",
         "tvTypes":  [
                         "TvSeries",
@@ -35,19 +35,19 @@
                     ],
         "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/bluphim.ico",
         "apiVersion":  1,
-        "fileHash":  "sha256-74f098f227e81839440f7d1db3b1500e1542842fc6bbb1c16593113de8230ad6"
+        "fileHash":  "sha256-35a6be31c16c0253d757bb14b414eaabe4ef2d0d3603358b5f687621537cad7b"
     },
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/HHTQProvider.cs3",
         "status":  1,
-        "version":  5,
+        "version":  6,
         "name":  "HHTQProvider",
         "internalName":  "HHTQProvider",
         "authors":  [
                         "anhdaden"
                     ],
         "description":  "Hoáº¡t hÃ¬nh Trung Quá»‘c vietsub",
-        "fileSize":  41998,
+        "fileSize":  41991,
         "repositoryUrl":  "https://t.me/cs3vn",
         "tvTypes":  [
                         "Anime",
@@ -55,18 +55,18 @@
                     ],
         "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/hhtq.ico",
         "apiVersion":  1,
-        "fileHash":  "sha256-0e542adfb1370d7c26d812f76168e333e82a403911c7e63436a7347002134018"
+        "fileHash":  "sha256-ce723fb5641790acb1eb3e6b388f84226638e84ef35f059660ff1601589b369e"
     },
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/KKPhimProvider.cs3",
         "status":  1,
-        "version":  15,
+        "version":  16,
         "name":  "KKPhimProvider",
         "internalName":  "KKPhimProvider",
         "authors":  [
                         "anhdaden"
                     ],
-        "fileSize":  58051,
+        "fileSize":  58044,
         "repositoryUrl":  "https://t.me/cs3vn",
         "tvTypes":  [
                         "Anime",
@@ -75,18 +75,18 @@
                     ],
         "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/kkphim.ico",
         "apiVersion":  1,
-        "fileHash":  "sha256-1c8c43bfa3dd530acdfef2d25814d7a43a24829eb35db85757f51f10f4092f39"
+        "fileHash":  "sha256-a14ca9a5add097c39b16163ce8d3e20fbcb8c26cf1a549267b8c41b336f832b1"
     },
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/NguonCProvider.cs3",
         "status":  1,
-        "version":  22,
+        "version":  23,
         "name":  "NguonCProvider",
         "internalName":  "NguonCProvider",
         "authors":  [
                         "anhdaden"
                     ],
-        "fileSize":  65104,
+        "fileSize":  65100,
         "repositoryUrl":  "https://t.me/cs3vn",
         "tvTypes":  [
                         "Anime",
@@ -95,18 +95,18 @@
                     ],
         "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/nguonc.ico",
         "apiVersion":  1,
-        "fileHash":  "sha256-4857a5e54ddabdf869bcba7644cf1f2906bbfcf0f5a5ab3c0de9a8324fefd09a"
+        "fileHash":  "sha256-707d8d3792705b5d21588977274c1d28042a59d8f52047073ea67f5dd1415f6f"
     },
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/OPhimProvider.cs3",
         "status":  1,
-        "version":  15,
+        "version":  16,
         "name":  "OPhimProvider",
         "internalName":  "OPhimProvider",
         "authors":  [
                         "anhdaden"
                     ],
-        "fileSize":  57458,
+        "fileSize":  57459,
         "repositoryUrl":  "https://t.me/cs3vn",
         "tvTypes":  [
                         "Anime",
@@ -115,12 +115,12 @@
                     ],
         "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/ophim.ico",
         "apiVersion":  1,
-        "fileHash":  "sha256-9ae984d7f6069a70c94d33ea6a6626f1c51237af79d19095a3a01e43c25a455e"
+        "fileHash":  "sha256-6f05c0232a52bf2f48a4970dd32ae821d034fb1ce11cccb3ce8006687980c428"
     },
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/PhimHDCProvider.cs3",
         "status":  1,
-        "version":  14,
+        "version":  15,
         "name":  "PhimHDCProvider",
         "internalName":  "PhimHDCProvider",
         "authors":  [
@@ -135,19 +135,19 @@
                     ],
         "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/phimhdc.ico",
         "apiVersion":  1,
-        "fileHash":  "sha256-2f0af436e71930ead2c54041dc7519729fc47fef1099722c77ef778fd5533d4f"
+        "fileHash":  "sha256-31d4985bf90e61f8d6e2e407af9ec62f5b15641a12f2cbb05120af66c0c8f917"
     },
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/PhimLongTiengProvider.cs3",
         "status":  1,
-        "version":  21,
+        "version":  22,
         "name":  "PhimLongTiengProvider",
         "internalName":  "PhimLongTiengProvider",
         "authors":  [
                         "anhdaden"
                     ],
         "description":  "Phim TVB, phim xÆ°a",
-        "fileSize":  40193,
+        "fileSize":  40196,
         "repositoryUrl":  "https://t.me/cs3vn",
         "tvTypes":  [
                         "TvSeries",
@@ -155,12 +155,12 @@
                     ],
         "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/phimlongtieng.ico",
         "apiVersion":  1,
-        "fileHash":  "sha256-82669a8cbeca1d19e4ed74b59f867a0bc6116b55017ad951e9d2ec59644da108"
+        "fileHash":  "sha256-b33683b22973c6bb7afc93eebd7cd1a60c624e8a14e2e463f8cc442ea47b27bf"
     },
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/Xem8zProvider.cs3",
         "status":  1,
-        "version":  7,
+        "version":  8,
         "name":  "Xem8zProvider",
         "internalName":  "Xem8zProvider",
         "authors":  [
@@ -174,19 +174,19 @@
                     ],
         "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/xem8z.ico",
         "apiVersion":  1,
-        "fileHash":  "sha256-7a2e1dafed5fa6031438e0ac6dbc86289fb8c6769e7d93394ed19070e3cd288d"
+        "fileHash":  "sha256-1df3b83152fff08b0c42a2f0604a653821b34c7f6aea6d2df49a2ee4ed2446b2"
     },
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/YumeiAnimeProvider.cs3",
         "status":  1,
-        "version":  4,
+        "version":  5,
         "name":  "YumeiAnimeProvider",
         "internalName":  "YumeiAnimeProvider",
         "authors":  [
                         "anhdaden"
                     ],
         "description":  "Pokemon vÃ  super sentai",
-        "fileSize":  36793,
+        "fileSize":  36794,
         "repositoryUrl":  "https://t.me/cs3vn",
         "tvTypes":  [
                         "Anime",
@@ -194,19 +194,19 @@
                     ],
         "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/yumeianime.ico",
         "apiVersion":  1,
-        "fileHash":  "sha256-a8b3bf9ac35f29f4d370d91b1c8ec2b7915ff44898193d51e55c2c7da52896dd"
+        "fileHash":  "sha256-aa5bb603cc29cbcb16ea72c51ba02496f0634b726875452ff8ec87d6d6461872"
     },
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/YanHH3DProvider.cs3",
         "status":  1,
-        "version":  30,
+        "version":  31,
         "name":  "YanHH3DProvider",
         "internalName":  "YanHH3DProvider",
         "authors":  [
                         "anhdaden"
                     ],
         "description":  "Hoáº¡t hÃ¬nh Trung Quá»‘c thuyáº¿t minh",
-        "fileSize":  53206,
+        "fileSize":  53207,
         "repositoryUrl":  "https://t.me/cs3vn",
         "tvTypes":  [
                         "Anime",
@@ -214,6 +214,6 @@
                     ],
         "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/yanhh3d.ico",
         "apiVersion":  1,
-        "fileHash":  "sha256-030a636aaf11f534122bae0774f0f9adda9b93e48f8932fe8633a65a82d8c7b5"
+        "fileHash":  "sha256-336ca7259898e15a05560393609789f62f981e7cb9b8523cf3f97e5bd5dc5216"
     }
 ]
