@@ -1,8 +1,8 @@
-[
+﻿[
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/clean/AnimeHayProvider.cs3",
         "status":  1,
-        "version":  104,
+        "version":  105,
         "name":  "AnimeHayProvider",
         "internalName":  "AnimeHayProvider",
         "authors":  [
@@ -15,13 +15,13 @@
                     ],
         "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/animehay.ico",
         "apiVersion":  1,
-        "fileSize":  47668,
-        "fileHash":  "sha256-729cb67878ba6f2dc622a58ce3937257df34c8b533073ee847e4ed5e15157cb3"
+        "fileSize":  47672,
+        "fileHash":  "sha256-05cd67121585effffea4c9b1e0d444dde1fe9e3e200b1de1f59598cf2c1bf64e"
     },
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/clean/BluPhimProvider.cs3",
         "status":  1,
-        "version":  104,
+        "version":  105,
         "name":  "BluPhimProvider",
         "internalName":  "BluPhimProvider",
         "authors":  [
@@ -36,13 +36,13 @@
                     ],
         "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/bluphim.ico",
         "apiVersion":  1,
-        "fileSize":  49460,
-        "fileHash":  "sha256-8d3bedff3ba3db54dbd1d8e871c5f91d6746df9bc426944f90aa980f90bf5038"
+        "fileSize":  49455,
+        "fileHash":  "sha256-5a6370e54b8205558f6cfcf1f193924356ef6e9db061ff3a32d30429c2a943ab"
     },
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/clean/KKPhimProvider.cs3",
         "status":  1,
-        "version":  103,
+        "version":  104,
         "name":  "KKPhimProvider",
         "internalName":  "KKPhimProvider",
         "authors":  [
@@ -57,13 +57,13 @@
                     ],
         "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/kkphim.ico",
         "apiVersion":  1,
-        "fileSize":  51310,
-        "fileHash":  "sha256-0fb9af13c57a9cdfa3d8f128bb1c9f29f5b889fc827f39852c72105a8e857652"
+        "fileSize":  51307,
+        "fileHash":  "sha256-06d5a6a3986b227312de821186601ae6006d83130fa9bb0f5dda5a0324fdf2f0"
     },
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/clean/OPhimProvider.cs3",
         "status":  1,
-        "version":  103,
+        "version":  104,
         "name":  "OPhimProvider",
         "internalName":  "OPhimProvider",
         "authors":  [
@@ -78,13 +78,13 @@
                     ],
         "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/ophim.ico",
         "apiVersion":  1,
-        "fileSize":  51201,
-        "fileHash":  "sha256-3524092da6e9d7a7126ea297cc96680524798c9e50bc9df1e0ebf92cc37197b9"
+        "fileSize":  51203,
+        "fileHash":  "sha256-e78e895bfb86d21d5ea0cc533429c3d946a5c37a5778c27ea3e1e481fa161c2f"
     },
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/clean/PhimBetaProvider.cs3",
         "status":  1,
-        "version":  103,
+        "version":  104,
         "name":  "PhimBetaProvider",
         "internalName":  "PhimBetaProvider",
         "authors":  [
@@ -99,13 +99,13 @@
                     ],
         "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/phimhdc.ico",
         "apiVersion":  1,
-        "fileSize":  103373,
-        "fileHash":  "sha256-16ac14dff0cca72b20d57477e8833dafc843614d5c49ff4a191b85316556cedc"
+        "fileSize":  103377,
+        "fileHash":  "sha256-43d825ba6dde69021b6013500fa95690da314062e9830f974fdc1f28fc92eb69"
     },
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/clean/PhimLongTieng.cs3",
         "status":  1,
-        "version":  104,
+        "version":  105,
         "name":  "PhimLongTieng",
         "internalName":  "PhimLongTieng",
         "authors":  [
@@ -119,13 +119,13 @@
                     ],
         "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/phimlongtieng.ico",
         "apiVersion":  1,
-        "fileSize":  51063,
-        "fileHash":  "sha256-47e29b372d3aa7f7aea144c74fbd1a3990fd7fffe944105609d1f9b7fc940463"
+        "fileSize":  51059,
+        "fileHash":  "sha256-d79755923d8c353aa704f3f82b565ddc8ecc0453329658a04ea0cb2e480db5b5"
     },
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/clean/PhimMoiChillProvider.cs3",
         "status":  1,
-        "version":  104,
+        "version":  105,
         "name":  "PhimMoiChillProvider",
         "internalName":  "PhimMoiChillProvider",
         "authors":  [
@@ -140,7 +140,7 @@
                     ],
         "iconUrl":  "https://www.google.com/s2/favicons?domain=motchill.date\u0026sz=%size%",
         "apiVersion":  1,
-        "fileSize":  53769,
-        "fileHash":  "sha256-dbfd828d591fe439b25c6c9e1c4c8bb7b73a49e2b18a99c2ae112548c4deb309"
+        "fileSize":  53777,
+        "fileHash":  "sha256-4418ce3edef04dde2c1d4163e1345fac41832fa299777bf5d09b49a3c8dcfa5a"
     }
 ]
