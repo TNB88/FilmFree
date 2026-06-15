@@ -2,26 +2,26 @@
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/unlocked_gitlab/AnimeHayProvider.cs3",
         "status":  1,
-        "version":  218,
+        "version":  219,
         "name":  "AnimeHayProvider",
         "internalName":  "AnimeHayProvider",
         "authors":  [
                         "anhdaden",
                         "local-unlock"
                     ],
-        "fileSize":  41672,
+        "fileSize":  41660,
         "repositoryUrl":  "https://github.com/TNB88/FilmFree",
         "tvTypes":  [
                         "Anime"
                     ],
         "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/animehay.ico",
         "apiVersion":  1,
-        "fileHash":  "sha256-b635e909741ea5215ed37581db5f3743c31af01a0a18a3d18a7d410ef9e116e7"
+        "fileHash":  "sha256-324e0b1ec07c86abdfb85cb71e7eac9ee76f3747b11459ff88978f06c5e4a31a"
     },
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/unlocked_gitlab/BluPhimProvider.cs3",
         "status":  1,
-        "version":  224,
+        "version":  225,
         "name":  "BluPhimProvider",
         "internalName":  "BluPhimProvider",
         "authors":  [
@@ -29,7 +29,7 @@
                         "local-unlock"
                     ],
         "description":  "FullHD",
-        "fileSize":  48555,
+        "fileSize":  48554,
         "repositoryUrl":  "https://github.com/TNB88/FilmFree",
         "tvTypes":  [
                         "TvSeries",
@@ -37,12 +37,12 @@
                     ],
         "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/bluphim.ico",
         "apiVersion":  1,
-        "fileHash":  "sha256-e1cde4da36ffe536a52e43961ded11dc2a196f89715d7134fae6b57dbc56e4d7"
+        "fileHash":  "sha256-1fe7a84f6280aab76acd824de5b78337a9e84e6eecbfed6a1d19d05a8254e927"
     },
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/unlocked_gitlab/HHTQProvider.cs3",
         "status":  1,
-        "version":  203,
+        "version":  204,
         "name":  "HHTQProvider",
         "internalName":  "HHTQProvider",
         "authors":  [
@@ -50,7 +50,7 @@
                         "local-unlock"
                     ],
         "description":  "Hoạt hình Trung Quốc vietsub",
-        "fileSize":  39725,
+        "fileSize":  39723,
         "repositoryUrl":  "https://github.com/TNB88/FilmFree",
         "tvTypes":  [
                         "Anime",
@@ -58,7 +58,7 @@
                     ],
         "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/hhtq.ico",
         "apiVersion":  1,
-        "fileHash":  "sha256-5b83648bd4e3621902de6e34bb77c9d93cc8af79065bf48903991420c5d7aec2"
+        "fileHash":  "sha256-7492bf262a53fd7cb950ab9939862640b0bc627a4b4cfbb58104c68c17be023e"
     },
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/unlocked_gitlab/KKPhimProvider.cs3",
@@ -84,7 +84,7 @@
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/unlocked_gitlab/NguonCProvider.cs3",
         "status":  1,
-        "version":  220,
+        "version":  221,
         "name":  "NguonCProvider",
         "internalName":  "NguonCProvider",
         "authors":  [
@@ -100,7 +100,7 @@
                     ],
         "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/nguonc.ico",
         "apiVersion":  1,
-        "fileHash":  "sha256-6aee3824b22351b1a77875c29841aaf2e298dd88adf1a00b77933ed805041a38"
+        "fileHash":  "sha256-e343cfc556aa63269d4a17052bb9e8541c25bf9b6a322b9ae99ad84826b35240"
     },
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/unlocked_gitlab/OPhimProvider.cs3",
@@ -126,7 +126,7 @@
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/unlocked_gitlab/PhimHDCProvider.cs3",
         "status":  1,
-        "version":  212,
+        "version":  213,
         "name":  "PhimHDCProvider",
         "internalName":  "PhimHDCProvider",
         "authors":  [
@@ -134,7 +134,7 @@
                         "local-unlock"
                     ],
         "description":  "FullHD",
-        "fileSize":  46865,
+        "fileSize":  46875,
         "repositoryUrl":  "https://github.com/TNB88/FilmFree",
         "tvTypes":  [
                         "TvSeries",
@@ -142,12 +142,12 @@
                     ],
         "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/phimhdc.ico",
         "apiVersion":  1,
-        "fileHash":  "sha256-b1976a45de44a2ef81ac07731fd1bbbcd0e939be2dcba1840833affb1d762d27"
+        "fileHash":  "sha256-c0aad77eb5e418a23aa8bb6bd3e0262196e9c796aa90b9b9d6916cafe1af1758"
     },
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/unlocked_gitlab/PhimLongTiengProvider.cs3",
         "status":  1,
-        "version":  219,
+        "version":  220,
         "name":  "PhimLongTiengProvider",
         "internalName":  "PhimLongTiengProvider",
         "authors":  [
@@ -155,7 +155,7 @@
                         "local-unlock"
                     ],
         "description":  "Phim TVB, phim xưa",
-        "fileSize":  37984,
+        "fileSize":  37982,
         "repositoryUrl":  "https://github.com/TNB88/FilmFree",
         "tvTypes":  [
                         "TvSeries",
@@ -163,19 +163,19 @@
                     ],
         "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/phimlongtieng.ico",
         "apiVersion":  1,
-        "fileHash":  "sha256-f600203b9b41d66af436f495fa4706746317392e5869dbf0ca3a158503eeb874"
+        "fileHash":  "sha256-4f06925bfe6717a6bbc4e5790142c6237a709a9f4dbd599ad960d1c4ae7a04b7"
     },
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/unlocked_gitlab/Xem8zProvider.cs3",
         "status":  1,
-        "version":  205,
+        "version":  206,
         "name":  "Xem8zProvider",
         "internalName":  "Xem8zProvider",
         "authors":  [
                         "anhdaden",
                         "local-unlock"
                     ],
-        "fileSize":  34151,
+        "fileSize":  34140,
         "repositoryUrl":  "https://github.com/TNB88/FilmFree",
         "tvTypes":  [
                         "TvSeries",
@@ -183,12 +183,12 @@
                     ],
         "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/xem8z.ico",
         "apiVersion":  1,
-        "fileHash":  "sha256-55cb31c658a7315be060bf7a74a63d8fc9745dd474d8b061488b3fb917e7dfb6"
+        "fileHash":  "sha256-1294e3bcfb3d5ada86f7d35034cc4d6bc355c52ee253a41f674e9a0492d67412"
     },
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/unlocked_gitlab/YanHH3DProvider.cs3",
         "status":  1,
-        "version":  228,
+        "version":  229,
         "name":  "YanHH3DProvider",
         "internalName":  "YanHH3DProvider",
         "authors":  [
@@ -196,7 +196,7 @@
                         "local-unlock"
                     ],
         "description":  "Hoạt hình Trung Quốc thuyết minh",
-        "fileSize":  50932,
+        "fileSize":  50942,
         "repositoryUrl":  "https://github.com/TNB88/FilmFree",
         "tvTypes":  [
                         "Anime",
@@ -204,12 +204,12 @@
                     ],
         "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/yanhh3d.ico",
         "apiVersion":  1,
-        "fileHash":  "sha256-7fa1c30afcc2dfc484642925c8d5f360b9b5a141ed7338852bff46efa1b22add"
+        "fileHash":  "sha256-86f1de8f52b246939ee846a3aef4f1679bacc294a996b5b1b5f604c15fdc0d36"
     },
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/unlocked_gitlab/YumeiAnimeProvider.cs3",
         "status":  1,
-        "version":  202,
+        "version":  203,
         "name":  "YumeiAnimeProvider",
         "internalName":  "YumeiAnimeProvider",
         "authors":  [
@@ -217,7 +217,7 @@
                         "local-unlock"
                     ],
         "description":  "Pokemon và super sentai",
-        "fileSize":  34516,
+        "fileSize":  34521,
         "repositoryUrl":  "https://github.com/TNB88/FilmFree",
         "tvTypes":  [
                         "Anime",
@@ -225,6 +225,6 @@
                     ],
         "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/yumeianime.ico",
         "apiVersion":  1,
-        "fileHash":  "sha256-024c5d83afc88dd83bf1e3dbc90892a070123b0dfd64c1c8a5e3471490bf4950"
+        "fileHash":  "sha256-f5a7553caf469eccd824886dca7dec825a00078876e22b71f2883e8cb928b543"
     }
 ]
