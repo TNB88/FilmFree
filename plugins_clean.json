@@ -1,0 +1,132 @@
+[
+    {
+        "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/clean/AnimeHayProvider.cs3",
+        "status":  1,
+        "version":  103,
+        "name":  "AnimeHayProvider",
+        "internalName":  "AnimeHayProvider",
+        "authors":  [
+                        "obama",
+                        "localfix"
+                    ],
+        "repositoryUrl":  "https://github.com/TNB88/FilmFree",
+        "tvTypes":  [
+                        "Anime"
+                    ],
+        "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/animehay.ico",
+        "apiVersion":  1
+    },
+    {
+        "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/clean/BluPhimProvider.cs3",
+        "status":  1,
+        "version":  103,
+        "name":  "BluPhimProvider",
+        "internalName":  "BluPhimProvider",
+        "authors":  [
+                        "obama",
+                        "localfix"
+                    ],
+        "description":  "Fix domain bluphim.media + TMDB proxy",
+        "repositoryUrl":  "https://github.com/TNB88/FilmFree",
+        "tvTypes":  [
+                        "TvSeries",
+                        "Movie"
+                    ],
+        "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/bluphim.ico",
+        "apiVersion":  1
+    },
+    {
+        "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/clean/KKPhimProvider.cs3",
+        "status":  1,
+        "version":  102,
+        "name":  "KKPhimProvider",
+        "internalName":  "KKPhimProvider",
+        "authors":  [
+                        "obama",
+                        "localfix"
+                    ],
+        "repositoryUrl":  "https://github.com/TNB88/FilmFree",
+        "tvTypes":  [
+                        "Anime",
+                        "TvSeries",
+                        "Movie"
+                    ],
+        "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/kkphim.ico",
+        "apiVersion":  1
+    },
+    {
+        "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/clean/OPhimProvider.cs3",
+        "status":  1,
+        "version":  102,
+        "name":  "OPhimProvider",
+        "internalName":  "OPhimProvider",
+        "authors":  [
+                        "obama",
+                        "localfix"
+                    ],
+        "repositoryUrl":  "https://github.com/TNB88/FilmFree",
+        "tvTypes":  [
+                        "Anime",
+                        "TvSeries",
+                        "Movie"
+                    ],
+        "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/ophim.ico",
+        "apiVersion":  1
+    },
+    {
+        "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/clean/PhimBetaProvider.cs3",
+        "status":  1,
+        "version":  102,
+        "name":  "PhimBetaProvider",
+        "internalName":  "PhimBetaProvider",
+        "authors":  [
+                        "obama",
+                        "localfix"
+                    ],
+        "repositoryUrl":  "https://github.com/TNB88/FilmFree",
+        "tvTypes":  [
+                        "Live",
+                        "TvSeries",
+                        "Movie"
+                    ],
+        "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/phimhdc.ico",
+        "apiVersion":  1
+    },
+    {
+        "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/clean/PhimLongTieng.cs3",
+        "status":  1,
+        "version":  103,
+        "name":  "PhimLongTieng",
+        "internalName":  "PhimLongTieng",
+        "authors":  [
+                        "obama",
+                        "localfix"
+                    ],
+        "repositoryUrl":  "https://github.com/TNB88/FilmFree",
+        "tvTypes":  [
+                        "TvSeries",
+                        "Movie"
+                    ],
+        "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/phimlongtieng.ico",
+        "apiVersion":  1
+    },
+    {
+        "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/clean/PhimMoiChillProvider.cs3",
+        "status":  1,
+        "version":  103,
+        "name":  "PhimMoiChillProvider",
+        "internalName":  "PhimMoiChillProvider",
+        "authors":  [
+                        "obama",
+                        "localfix"
+                    ],
+        "description":  "Fix domain motchill.date + TMDB proxy",
+        "repositoryUrl":  "https://github.com/TNB88/FilmFree",
+        "tvTypes":  [
+                        "TvSeries",
+                        "Movie"
+                    ],
+        "iconUrl":  "https://www.google.com/s2/favicons?domain=motchill.date&sz=%size%",
+        "apiVersion":  1
+    }
+]
