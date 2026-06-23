@@ -19,7 +19,7 @@
         "fileHash": "sha256-324e0b1ec07c86abdfb85cb71e7eac9ee76f3747b11459ff88978f06c5e4a31a"
     },
     {
-        "url": "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/unlocked_gitlab/BluPhimProvider.cs3",
+        "url": "https://raw.githubusercontent.com/TNB88/FilmFree/main/unlocked_gitlab/BluPhimProvider.cs3",
         "status": 1,
         "version": 226,
         "name": "BluPhimProvider",
