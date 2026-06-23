@@ -29,7 +29,7 @@
                         "local-unlock"
                     ],
         "description":  "FullHD",
-        "fileSize":  50121,
+        "fileSize":  50153,
         "repositoryUrl":  "https://github.com/TNB88/FilmFree",
         "tvTypes":  [
                         "TvSeries",
@@ -37,7 +37,7 @@
                     ],
         "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/bluphim.ico",
         "apiVersion":  1,
-        "fileHash":  "sha256-c7e045d36514c353585f1d1a69378d1d8234e4c9d3bc82f774ffd9de0b3994bc"
+        "fileHash":  "sha256-b7eabe65fd0d603e6ed8fee8d5cb3dd7986c9cadfd528b80d583b7878f16cbb9"
     },
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/unlocked_gitlab/HHTQProvider.cs3",
@@ -49,7 +49,7 @@
                         "anhdaden",
                         "local-unlock"
                     ],
-        "description":  "HoÃƒÂ¡Ã‚ÂºÃ‚Â¡t hÃƒÆ’Ã‚Â¬nh Trung QuÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœc vietsub",
+        "description":  "HoÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â¡t hÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¬nh Trung QuÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“c vietsub",
         "fileSize":  39723,
         "repositoryUrl":  "https://github.com/TNB88/FilmFree",
         "tvTypes":  [
@@ -154,7 +154,7 @@
                         "anhdaden",
                         "local-unlock"
                     ],
-        "description":  "Phim TVB, phim xÃƒâ€ Ã‚Â°a",
+        "description":  "Phim TVB, phim xÃƒÆ’Ã¢â‚¬Â Ãƒâ€šÃ‚Â°a",
         "fileSize":  37982,
         "repositoryUrl":  "https://github.com/TNB88/FilmFree",
         "tvTypes":  [
@@ -175,7 +175,7 @@
                         "anhdaden",
                         "local-unlock"
                     ],
-        "description":  "HoÃƒÂ¡Ã‚ÂºÃ‚Â¡t hÃƒÆ’Ã‚Â¬nh Trung QuÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœc thuyÃƒÂ¡Ã‚ÂºÃ‚Â¿t minh",
+        "description":  "HoÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â¡t hÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¬nh Trung QuÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“c thuyÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â¿t minh",
         "fileSize":  50942,
         "repositoryUrl":  "https://github.com/TNB88/FilmFree",
         "tvTypes":  [
@@ -196,7 +196,7 @@
                         "anhdaden",
                         "local-unlock"
                     ],
-        "description":  "Pokemon vÃƒÆ’Ã‚Â  super sentai",
+        "description":  "Pokemon vÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â  super sentai",
         "fileSize":  34521,
         "repositoryUrl":  "https://github.com/TNB88/FilmFree",
         "tvTypes":  [
