@@ -19,9 +19,9 @@
         "fileHash":  "sha256-324e0b1ec07c86abdfb85cb71e7eac9ee76f3747b11459ff88978f06c5e4a31a"
     },
     {
-        "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/main/unlocked_gitlab/BluPhimProvider_v230.cs3",
+        "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/main/unlocked_gitlab/BluPhimProvider_v231.cs3",
         "status":  1,
-        "version":  230,
+        "version":  231,
         "name":  "BluPhimProvider",
         "internalName":  "BluPhimProvider",
         "authors":  [
@@ -29,7 +29,7 @@
                         "local-unlock"
                     ],
         "description":  "FullHD",
-        "fileSize":  50153,
+        "fileSize":  50133,
         "repositoryUrl":  "https://github.com/TNB88/FilmFree",
         "tvTypes":  [
                         "TvSeries",
@@ -37,7 +37,7 @@
                     ],
         "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/bluphim.ico",
         "apiVersion":  1,
-        "fileHash":  "sha256-1dcea1763dc038f2b0c4ac76f9414ccdf2ae8d0cfa45df3988e2dd07ab78f687"
+        "fileHash":  "sha256-b9d641878c1b169eae5baa78f6aaf5539d0c17e6731044e9fe3af2a1e60278ed"
     },
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/unlocked_gitlab/HHTQProvider.cs3",
