@@ -19,17 +19,17 @@
         "fileHash":  "sha256-324e0b1ec07c86abdfb85cb71e7eac9ee76f3747b11459ff88978f06c5e4a31a"
     },
     {
-        "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/main/unlocked_gitlab/BluPhimProvider_v238.cs3",
+        "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/main/unlocked_gitlab/BluPhimProvider_v239.cs3",
         "status":  1,
-        "version":  238,
+        "version":  239,
         "name":  "BluPhimProvider",
         "internalName":  "BluPhimProvider",
         "authors":  [
                         "anhdaden",
                         "local-unlock"
                     ],
-        "description":  "FullHD - worker + fixed category paths + media URL rewrite",
-        "fileSize":  50702,
+        "description":  "FullHD - worker + fixed category paths + direct m3u8 play",
+        "fileSize":  50768,
         "repositoryUrl":  "https://github.com/TNB88/FilmFree",
         "tvTypes":  [
                         "TvSeries",
@@ -37,7 +37,7 @@
                     ],
         "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/bluphim.ico",
         "apiVersion":  1,
-        "fileHash":  "sha256-413dbee39f74d230b799d4b1460b3d616a4ce87e52e86af95d23e7691cf115db"
+        "fileHash":  "sha256-e36d9ac188d91a1902a61fb84f3c00420494d8262127de6a90fe610dae426ef0"
     },
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/unlocked_gitlab/HHTQProvider.cs3",
