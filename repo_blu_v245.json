@@ -1,0 +1,8 @@
+{
+    "name":  "Vietnamese Movie - BluPhim v245 test",
+    "description":  "BluPhim v245 route/category/link hotfix",
+    "manifestVersion":  1,
+    "pluginLists":  [
+                        "https://raw.githubusercontent.com/TNB88/FilmFree/main/plugins_blu_v245.json"
+                    ]
+}
