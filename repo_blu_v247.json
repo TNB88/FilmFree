@@ -1,0 +1,8 @@
+{
+    "name":  "Vietnamese Movie - BluPhim v247 Episode ABI fix",
+    "description":  "BluPhim standard core with Cloudflare worker domain and Episode compatibility fix",
+    "manifestVersion":  1,
+    "pluginLists":  [
+                        "https://raw.githubusercontent.com/TNB88/FilmFree/main/plugins_blu_v247.json"
+                    ]
+}
