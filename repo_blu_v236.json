@@ -1,0 +1,8 @@
+{
+  "name": "Vietnamese Movie BluPhim v236",
+  "description": "BluPhim visible-source build, Cloudflare Worker domain",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/TNB88/FilmFree/main/plugins_blu_v236.json"
+  ]
+}
