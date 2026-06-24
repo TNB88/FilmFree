@@ -1,0 +1,8 @@
+{
+    "name":  "Vietnamese Movie BluPhim v232",
+    "description":  "BluPhim fixed domain bluphim3.com",
+    "manifestVersion":  1,
+    "pluginLists":  [
+                        "https://raw.githubusercontent.com/TNB88/FilmFree/main/plugins_blu_v232.json"
+                    ]
+}
