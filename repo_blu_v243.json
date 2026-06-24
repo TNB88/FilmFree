@@ -1,0 +1,8 @@
+{
+    "name":  "Vietnamese Movie BluPhim v243",
+    "description":  "BluPhim/Freetube Worker build, fixed thumbnails and unlocked playback for GitHub/Phim Rap repo",
+    "manifestVersion":  1,
+    "pluginLists":  [
+                        "https://raw.githubusercontent.com/TNB88/FilmFree/main/plugins_blu_v243.json"
+                    ]
+}
