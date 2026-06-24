@@ -1,6 +1,6 @@
 {
-  "name": "Vietnamese Movie BluPhim v237",
-  "description": "BluPhim visible-source build, Cloudflare Worker domain, media URL rewrite",
+  "name": "Vietnamese Movie BluPhim v238",
+  "description": "BluPhim Worker build, fixed category paths and media URL rewrite, media URL rewrite",
   "manifestVersion": 1,
   "pluginLists": [
     "https://raw.githubusercontent.com/TNB88/FilmFree/main/plugins_blu_v236.json"
