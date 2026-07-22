@@ -189,15 +189,15 @@
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/unlocked_gitlab/YumeiAnimeProvider.cs3",
         "status":  1,
-        "version":  203,
+        "version":  204,
         "name":  "YumeiAnimeProvider",
         "internalName":  "YumeiAnimeProvider",
         "authors":  [
                         "anhdaden",
-                        "local-unlock"
+                        "Bình Pro"
                     ],
-        "description":  "Pokemon v?????????????????? super sentai",
-        "fileSize":  34521,
+        "description":  "Anime, Pokémon và Super Sentai; dùng API GraphQL mới của Yumei và phát HLS trực tiếp",
+        "fileSize":  48477,
         "repositoryUrl":  "https://github.com/TNB88/FilmFree",
         "tvTypes":  [
                         "Anime",
@@ -205,6 +205,6 @@
                     ],
         "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/yumeianime.ico",
         "apiVersion":  1,
-        "fileHash":  "sha256-f5a7553caf469eccd824886dca7dec825a00078876e22b71f2883e8cb928b543"
+        "fileHash":  "sha256-1b90f04cdde4edf6cb0297c510976de9a5ee2e37e1a88b0279e80585198e455a"
     }
 ]
