@@ -1,8 +1,0 @@
-{
-    "name":  "FilmFree OPhim Raw Test",
-    "description":  "OPhim one-provider test using direct raw.githubusercontent download URL",
-    "manifestVersion":  1,
-    "pluginLists":  [
-                        "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/plugins_ophim_rawtest.json"
-                    ]
-}

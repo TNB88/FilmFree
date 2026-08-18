@@ -1,8 +1,0 @@
-{
-  "name": "Vietnamese Movie BluPhim v235",
-  "description": "BluPhim original core, force register source, Cloudflare Worker domain",
-  "manifestVersion": 1,
-  "pluginLists": [
-    "https://raw.githubusercontent.com/TNB88/FilmFree/main/plugins_blu_v235.json"
-  ]
-}

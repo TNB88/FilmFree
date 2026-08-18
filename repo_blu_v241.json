@@ -1,8 +1,0 @@
-{
-    "name":  "Vietnamese Movie BluPhim v242",
-    "description":  "BluPhim/Freetube Worker build, fixed item/title/thumbnail selectors and xem-phim player links",
-    "manifestVersion":  1,
-    "pluginLists":  [
-                        "https://raw.githubusercontent.com/TNB88/FilmFree/main/plugins_blu_v242.json"
-                    ]
-}

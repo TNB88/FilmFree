@@ -1,8 +1,0 @@
-{
-    "name":  "Vietnamese Movie Clean",
-    "description":  "Clean unlocked providers rebuilt from ban chuan khong khoa",
-    "manifestVersion":  1,
-    "pluginLists":  [
-                        "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/plugins_clean.json"
-                    ]
-}

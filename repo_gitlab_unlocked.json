@@ -1,8 +1,0 @@
-﻿{
-    "name":  "Vietnamese Movie GitLab Unlocked",
-    "description":  "GitLab play providers unlocked for CloudStream and Phim Rap",
-    "manifestVersion":  1,
-    "pluginLists":  [
-                        "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/plugins_gitlab_unlocked.json"
-                    ]
-}

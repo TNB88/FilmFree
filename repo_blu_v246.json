@@ -1,8 +1,0 @@
-{
-    "name":  "Vietnamese Movie - BluPhim v246 standard test",
-    "description":  "BluPhim standard core with Cloudflare worker domain",
-    "manifestVersion":  1,
-    "pluginLists":  [
-                        "https://raw.githubusercontent.com/TNB88/FilmFree/main/plugins_blu_v246.json"
-                    ]
-}
