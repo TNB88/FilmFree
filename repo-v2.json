@@ -1,0 +1,8 @@
+{
+  "name": "Vietnamese Movie",
+  "description": "https://t.me/cs3vn",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/plugins.json?manifest=v2"
+  ]
+}
