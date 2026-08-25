@@ -105,14 +105,14 @@
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/unlocked_gitlab/OPhimProvider.cs3",
         "status":  1,
-        "version":  213,
+        "version":  214,
         "name":  "OPhimProvider",
         "internalName":  "OPhimProvider",
         "authors":  [
                         "anhdaden",
                         "local-unlock"
                     ],
-        "fileSize":  55045,
+        "fileSize":  34396,
         "repositoryUrl":  "https://github.com/TNB88/FilmFree",
         "tvTypes":  [
                         "Anime",
@@ -121,7 +121,7 @@
                     ],
         "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/ophim.ico",
         "apiVersion":  1,
-        "fileHash":  "sha256-44df7ba9d604119f85edfe601e1e9079f511cbaac689ce1c6957f90aee221c85"
+        "fileHash":  "sha256-6474bdfb0f581d99c162618be74cc731fd7acaf348c52ecc6295399f2272cf8f"
     },
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/unlocked_gitlab/PhimHDCProvider.cs3",
