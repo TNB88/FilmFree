@@ -2,21 +2,21 @@
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/unlocked_gitlab/AnimeHayProvider.cs3",
         "status":  1,
-        "version":  220,
+        "version":  221,
         "name":  "AnimeHayProvider",
         "internalName":  "AnimeHayProvider",
         "authors":  [
                         "anhdaden",
                         "local-unlock"
                     ],
-        "fileSize":  43494,
+        "fileSize":  43488,
         "repositoryUrl":  "https://github.com/TNB88/FilmFree",
         "tvTypes":  [
                         "Anime"
                     ],
         "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/animehay.ico",
         "apiVersion":  1,
-        "fileHash":  "sha256-ba6096b2f357ad84bdd17a237fe3695c1b112e6174f50129b0817d36bd9afd8a"
+        "fileHash":  "sha256-3c1a5cd57226b20a229ae0982d366d5bfde4947c66ca4441e3bd924699f93093"
     },
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/main/unlocked_gitlab/BluPhimProvider.cs3",
