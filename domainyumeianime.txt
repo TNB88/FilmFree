@@ -1,0 +1,2 @@
+https://yumei-anime.com
+https://api.yumei-anime.com/graphql

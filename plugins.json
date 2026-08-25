@@ -168,7 +168,7 @@
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/unlocked_gitlab/YanHH3DProvider.cs3",
         "status":  1,
-        "version":  229,
+        "version":  230,
         "name":  "YanHH3DProvider",
         "internalName":  "YanHH3DProvider",
         "authors":  [
@@ -176,7 +176,7 @@
                         "local-unlock"
                     ],
         "description":  "Ho??????????????????????????t h??????????????????nh Trung Qu????????????????????????????????c thuy??????????????????????????t minh",
-        "fileSize":  50942,
+        "fileSize":  52894,
         "repositoryUrl":  "https://github.com/TNB88/FilmFree",
         "tvTypes":  [
                         "Anime",
@@ -184,12 +184,12 @@
                     ],
         "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/yanhh3d.ico",
         "apiVersion":  1,
-        "fileHash":  "sha256-86f1de8f52b246939ee846a3aef4f1679bacc294a996b5b1b5f604c15fdc0d36"
+        "fileHash":  "sha256-90aa0a3e657e605e57e4d5f6b8aa348f5502efbc255e1c38ad146934570b0597"
     },
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/unlocked_gitlab/YumeiAnimeProvider.cs3",
         "status":  1,
-        "version":  204,
+        "version":  205,
         "name":  "YumeiAnimeProvider",
         "internalName":  "YumeiAnimeProvider",
         "authors":  [
@@ -197,7 +197,7 @@
                         "Bình Pro"
                     ],
         "description":  "Anime, Pokémon và Super Sentai; dùng API GraphQL mới của Yumei và phát HLS trực tiếp",
-        "fileSize":  48477,
+        "fileSize":  51017,
         "repositoryUrl":  "https://github.com/TNB88/FilmFree",
         "tvTypes":  [
                         "Anime",
@@ -205,6 +205,6 @@
                     ],
         "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/yumeianime.ico",
         "apiVersion":  1,
-        "fileHash":  "sha256-1b90f04cdde4edf6cb0297c510976de9a5ee2e37e1a88b0279e80585198e455a"
+        "fileHash":  "sha256-64c7576930bdec8c5d6413a56644209a37af5acba69b5ff9e280f97fab9a29eb"
     }
 ]
