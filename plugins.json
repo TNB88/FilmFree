@@ -21,15 +21,15 @@
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/main/unlocked_gitlab/BluPhimProvider.cs3",
         "status":  1,
-        "version":  249,
+        "version":  250,
         "name":  "BluPhimProvider",
         "internalName":  "BluPhimProvider",
         "authors":  [
                         "anhdaden",
                         "local-unlock"
                     ],
-        "description":  "BluPhim dynamic domain + bluphim.media WordPress player support",
-        "fileSize":  50334,
+        "description":  "BluPhim dynamic domain + category/search/player support for bluphim.media",
+        "fileSize":  50332,
         "repositoryUrl":  "https://github.com/TNB88/FilmFree",
         "tvTypes":  [
                         "TvSeries",
@@ -37,7 +37,7 @@
                     ],
         "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/bluphim.ico",
         "apiVersion":  1,
-        "fileHash":  "sha256-2c83acd8fd1959efbe533c58e2b4302844e4066808fc26a881e7b36e9b2fadd2"
+        "fileHash":  "sha256-e4cdd9db969ca82f428656ab777c76fbf55252541e11cb202406d0bba324aa34"
     },
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/unlocked_gitlab/HHTQProvider.cs3",
