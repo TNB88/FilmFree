@@ -103,25 +103,25 @@
         "fileHash":  "sha256-033d907598902ebdb7704fea94954e9cfaede1ef08aa8381f3076c85f4f916d0"
     },
     {
-        "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/unlocked_gitlab/OPhimProvider.cs3",
+        "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/unlocked_gitlab/MotChillProvider.cs3",
         "status":  1,
-        "version":  214,
-        "name":  "OPhimProvider",
-        "internalName":  "OPhimProvider",
+        "version":  215,
+        "name":  "MotChillProvider",
+        "internalName":  "MotChillProvider",
         "authors":  [
                         "anhdaden",
                         "local-unlock"
                     ],
-        "fileSize":  34396,
+        "fileSize":  35313,
         "repositoryUrl":  "https://github.com/TNB88/FilmFree",
         "tvTypes":  [
                         "Anime",
                         "TvSeries",
                         "Movie"
                     ],
-        "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/ophim.ico",
+        "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/motchill.ico",
         "apiVersion":  1,
-        "fileHash":  "sha256-6474bdfb0f581d99c162618be74cc731fd7acaf348c52ecc6295399f2272cf8f"
+        "fileHash":  "sha256-26f66655b1409a9ac2912ceaaed10bfbe14b5eae92973efff3793ac6a5e8f260"
     },
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/unlocked_gitlab/PhimHDCProvider.cs3",
