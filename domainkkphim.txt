@@ -1,1 +1,1 @@
-https://phimapi.com
+https://phimapi.com/v1/api
