@@ -61,7 +61,7 @@
         "fileHash":  "sha256-7492bf262a53fd7cb950ab9939862640b0bc627a4b4cfbb58104c68c17be023e"
     },
     {
-        "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/unlocked_gitlab/KKPhimProvider.cs3",
+        "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/main/unlocked_gitlab/KKPhimProvider.cs3",
         "status":  1,
         "version":  216,
         "name":  "KKPhimProvider",
