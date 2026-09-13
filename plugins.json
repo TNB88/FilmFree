@@ -82,7 +82,7 @@
         "fileHash":  "sha256-a28e28189c88ce54915189ea5649aab68744ba43fed9343723f5635eb4bd50e9"
     },
     {
-        "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/unlocked_gitlab/NguonCProvider.cs3",
+        "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/1f252ac/unlocked_gitlab/NguonCProvider.cs3",
         "status":  1,
         "version":  226,
         "name":  "NguonCProvider",
