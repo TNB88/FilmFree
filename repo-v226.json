@@ -1,0 +1,8 @@
+{
+  "name": "Vietnamese Movie v226 test",
+  "description": "Temporary immutable manifest for NguonC verification",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/TNB88/FilmFree/bcc70bd/plugins.json"
+  ]
+}
