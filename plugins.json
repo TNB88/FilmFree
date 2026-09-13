@@ -82,16 +82,16 @@
         "fileHash":  "sha256-a28e28189c88ce54915189ea5649aab68744ba43fed9343723f5635eb4bd50e9"
     },
     {
-        "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/1f252ac/unlocked_gitlab/NguonCProvider.cs3",
+        "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/3dc37cb3a8d7197fa14291400a360966affe8d5c/unlocked_gitlab/NguonCProvider.cs3",
         "status":  1,
-        "version":  226,
+        "version":  227,
         "name":  "NguonCProvider",
         "internalName":  "NguonCProvider",
         "authors":  [
                         "anhdaden",
                         "local-unlock"
                     ],
-        "fileSize":  62990,
+        "fileSize":  62781,
         "repositoryUrl":  "https://github.com/TNB88/FilmFree",
         "tvTypes":  [
                         "Anime",
@@ -100,7 +100,7 @@
                     ],
         "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/nguonc.ico",
         "apiVersion":  1,
-        "fileHash":  "sha256-f29e1f0410219ca7443032ff52b965a77faeefd0b2c21e380515392de5a48613"
+        "fileHash":  "sha256-6fb1d24e7faf586a6f49d8685df9adf0594e96717743bb7d7bb634307ff7ffd9"
     },
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/unlocked_gitlab/MotChillProvider.cs3",
