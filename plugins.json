@@ -19,17 +19,17 @@
         "fileHash":  "sha256-5555be01b2bf98e6948b2aa002538f67a0ff898ba0ff29ff2cedeacb4ca8c3fb"
     },
     {
-        "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/main/unlocked_gitlab/BluPhimProvider.cs3",
+        "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/86cd173e5d7878c6db79a818f79ad1a9430a2439/unlocked_gitlab/BluPhimProvider.cs3",
         "status":  1,
-        "version":  250,
+        "version":  251,
         "name":  "BluPhimProvider",
         "internalName":  "BluPhimProvider",
         "authors":  [
                         "anhdaden",
                         "local-unlock"
                     ],
-        "description":  "BluPhim dynamic domain + category/search/player support for bluphim.media",
-        "fileSize":  50332,
+        "description":  "BluPhim: tên miền động, danh sách, tìm kiếm, tập phim và HLS tại bluphim.cam",
+        "fileSize":  48487,
         "repositoryUrl":  "https://github.com/TNB88/FilmFree",
         "tvTypes":  [
                         "TvSeries",
@@ -37,7 +37,7 @@
                     ],
         "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/bluphim.ico",
         "apiVersion":  1,
-        "fileHash":  "sha256-e4cdd9db969ca82f428656ab777c76fbf55252541e11cb202406d0bba324aa34"
+        "fileHash":  "sha256-6c0a93bb33e3e380cced7ae6706bf421e83e7da1eb3fb44078e24a8fe5f952d0"
     },
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/unlocked_gitlab/HHTQProvider.cs3",
@@ -61,16 +61,16 @@
         "fileHash":  "sha256-7492bf262a53fd7cb950ab9939862640b0bc627a4b4cfbb58104c68c17be023e"
     },
     {
-        "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/main/unlocked_gitlab/KKPhimProvider.cs3",
+        "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/86cd173e5d7878c6db79a818f79ad1a9430a2439/unlocked_gitlab/KKPhimProvider.cs3",
         "status":  1,
-        "version":  216,
+        "version":  217,
         "name":  "KKPhimProvider",
         "internalName":  "KKPhimProvider",
         "authors":  [
                         "anhdaden",
                         "local-unlock"
                     ],
-        "fileSize":  55521,
+        "fileSize":  43011,
         "repositoryUrl":  "https://github.com/TNB88/FilmFree",
         "tvTypes":  [
                         "Anime",
@@ -79,19 +79,19 @@
                     ],
         "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/kkphim.ico",
         "apiVersion":  1,
-        "fileHash":  "sha256-a28e28189c88ce54915189ea5649aab68744ba43fed9343723f5635eb4bd50e9"
+        "fileHash":  "sha256-ce5e7ee461088d47bb857509c686b2510ebd46b66486a387574dbe94824fd796"
     },
     {
-        "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/25e89ae2718aed4e1337b5533d850a59eea15e87/unlocked_gitlab/NguonCProvider.cs3",
+        "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/86cd173e5d7878c6db79a818f79ad1a9430a2439/unlocked_gitlab/NguonCProvider.cs3",
         "status":  1,
-        "version":  230,
+        "version":  231,
         "name":  "NguonCProvider",
         "internalName":  "NguonCProvider",
         "authors":  [
                         "anhdaden",
                         "local-unlock"
                     ],
-        "fileSize":  63184,
+        "fileSize":  43039,
         "repositoryUrl":  "https://github.com/TNB88/FilmFree",
         "tvTypes":  [
                         "Anime",
@@ -100,19 +100,19 @@
                     ],
         "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/nguonc.ico",
         "apiVersion":  1,
-        "fileHash":  "sha256-7d06db9dad908947b89c376cf1803b8b264055bd8f0fdb0394486ee85d4e88ee"
+        "fileHash":  "sha256-70f57a45b9cde5f85678c4ba88c93d06e81851ee615fa42a08f3f3754eb31d10"
     },
     {
-        "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/unlocked_gitlab/MotChillProvider.cs3",
+        "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/86cd173e5d7878c6db79a818f79ad1a9430a2439/unlocked_gitlab/MotChillProvider.cs3",
         "status":  1,
-        "version":  215,
+        "version":  216,
         "name":  "MotChillProvider",
         "internalName":  "MotChillProvider",
         "authors":  [
                         "anhdaden",
                         "local-unlock"
                     ],
-        "fileSize":  35313,
+        "fileSize":  48857,
         "repositoryUrl":  "https://github.com/TNB88/FilmFree",
         "tvTypes":  [
                         "Anime",
@@ -121,7 +121,7 @@
                     ],
         "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/motchill.ico",
         "apiVersion":  1,
-        "fileHash":  "sha256-26f66655b1409a9ac2912ceaaed10bfbe14b5eae92973efff3793ac6a5e8f260"
+        "fileHash":  "sha256-db5f3e2c41da98d11a6f4501006d109d5daf182f269a626aab81c24836c1f4d5"
     },
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/unlocked_gitlab/PhimHDCProvider.cs3",
