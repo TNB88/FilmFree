@@ -166,9 +166,9 @@
         "fileHash":  "sha256-4f06925bfe6717a6bbc4e5790142c6237a709a9f4dbd599ad960d1c4ae7a04b7"
     },
     {
-        "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/unlocked_gitlab/YanHH3DProvider.cs3",
+        "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/73f7708d38f283d30925a7a117462a20cc0d0c2c/unlocked_gitlab/YanHH3DProvider.cs3",
         "status":  1,
-        "version":  230,
+        "version":  231,
         "name":  "YanHH3DProvider",
         "internalName":  "YanHH3DProvider",
         "authors":  [
@@ -176,7 +176,7 @@
                         "local-unlock"
                     ],
         "description":  "Hoạt Hình YanHH3D",
-        "fileSize":  52894,
+        "fileSize":  55479,
         "repositoryUrl":  "https://github.com/TNB88/FilmFree",
         "tvTypes":  [
                         "Anime",
@@ -184,7 +184,7 @@
                     ],
         "iconUrl":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/icon/yanhh3d.ico",
         "apiVersion":  1,
-        "fileHash":  "sha256-90aa0a3e657e605e57e4d5f6b8aa348f5502efbc255e1c38ad146934570b0597"
+        "fileHash":  "sha256-bca1d94a9ba0dc66306da2502d629ab8f5542a42eb368e758b95219e8240d031"
     },
     {
         "url":  "https://raw.githubusercontent.com/TNB88/FilmFree/refs/heads/main/unlocked_gitlab/YumeiAnimeProvider.cs3",
