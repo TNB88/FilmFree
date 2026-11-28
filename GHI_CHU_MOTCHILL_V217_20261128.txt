@@ -1,0 +1,39 @@
+MOTCHILL v217 - 28/11/2026
+
+Nguyen nhan:
+- domainmotchill.txt truoc do tro https://motchillw.ac.
+- Trang nay khac giao thuc voi plugin v216: duong phim co ID so,
+  khong phai hub API cua motchill.show. Tim kiem va trang phat hien tra
+  HTTP 502 Host Error trong kiem tra, du trang chu con hien tu cache.
+- motchill.show hien chuyen huong sang https://motchill.win.
+
+Da sua:
+- Remote domainmotchill.txt = https://motchill.win.
+- Plugin v217 van uu tien dia chi trong remote GitHub, du phong .win,
+  sau do .show. Khong tu chuyen sang KKPhim hay Nguon C.
+- Sau chuyen huong API, lay origin cuoi cung de tao URL phim va Referer.
+- Chi chap nhan chuyen huong HTTPS van nam trong /api/hub/ va JSON dung
+  cau truc. Khong coi trang chu/HTML/502 la danh sach phim rong thanh cong.
+- Van lam moi embed co han khi bam phat; khong luu link ky lau dai.
+- Khong thay doi cac plugin khac hay muc da an trong manifest.
+
+Kiem tra:
+- Build MotChillProvider.cs3 v217 thanh cong.
+- 44 test: 40 dat, 4 live test bo qua trong lan chay offline; khong loi.
+- Trinh duyet truc tiep: API danh sach, chi tiet, 6 tap Phong Sinh Thuy Khoi
+  va player tra du lieu. Video chay tu 0.5 den 6 giay, hinh 1920x804.
+- Chua test bang Cloudstream/ADB tren thiet bi. Ket qua player trinh duyet
+  khong thay the cho kiem tra native HLS va xem phim dai tren Cloudstream.
+- Ket noi truc tiep tu CLI den MotChill bi timeout tren may nay; khong
+  sua DNS, khong hardcode IP, khong tat TLS/bo qua xac minh may chu.
+
+Cach cap nhat:
+- Cloudstream: lam moi kho Vietnamese Movie / FilmFree, cap nhat MotChill
+  len v217, dong/mo lai app neu van giu cache cu.
+- Remote domain duoc cache toi da 5 phut trong phien chay. Moi lan doi
+  domain co the cho 5 phut hoac khoi dong lai app.
+- Chi doi remote sang may chu co cung API /api/hub/. Trang khac cung ten
+  MotChill nhung khac API khong duoc dam bao tuong thich.
+- Luu y link GitHub /blob/ dung de sua file; plugin doc ban raw cua file.
+
+Nguon build va test: motchill-fix-v217/source.
