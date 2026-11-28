@@ -18,25 +18,32 @@ class MotChillProvider : MainAPI() {
         "" to "Phim Mới", "movie_type=phim-le" to "Phim Lẻ", "movie_type=phim-bo" to "Phim Bộ",
         "movie_type=phim-chieu-rap" to "Phim Chiếu Rạp", "genre=hoat-hinh" to "Hoạt Hình")
     private val domain = RemoteDomain("domainmotchill.txt", MotProtocol.DEFAULT_DOMAIN)
+    private val catalog = java.util.Collections.synchronizedMap(object : LinkedHashMap<String, JsonNode>(256, 0.75f, true) {
+        override fun removeEldestEntry(eldest: MutableMap.MutableEntry<String, JsonNode>?) = size > 256
+    })
 
     private suspend fun api(path: String): JsonNode {
         var problem = "Không kết nối được API"
         for (base in MotProtocol.candidates(domain.resolve())) {
             try {
-                val response = Http.get("$base/api/hub/$path", headers = StreamResolver.headers, timeout = 15)
+                // Do not multiply retries across two aliases of the same server.
+                val response = app.get("$base/api/hub/$path", headers = StreamResolver.headers, timeout = 10)
                 require(response.code == 200) { "API trả HTTP ${response.code}" }
                 val root = Protocol.json(response.text)
                 when {
                     path.startsWith("movies?") || path.startsWith("search?") -> MotProtocol.items(root)
                     path.endsWith("/episodes") -> MotProtocol.episodes(root)
-                    else -> require(Protocol.text(root, "raw_movie_id").matches(Regex("\\d+"))) { "API thiếu mã phim" }
+                    else -> require(MotProtocol.movieId(root).isNotBlank()) { "API thiếu mã phim" }
                 }
                 // Follow the final API origin after a domain migration. Otherwise
                 // cards and player Referer still point at the retired domain.
                 mainUrl = MotProtocol.apiOrigin(response.url)
                 return root
             } catch (cancel: CancellationException) { throw cancel }
-            catch (error: Exception) { domain.reject(base); problem = error.message ?: problem }
+            catch (error: Exception) {
+                domain.reject(base)
+                problem = "API ${path.substringBefore('?')}: ${error.message ?: "không phản hồi"}"
+            }
         }
         throw ErrorLoadingException("MotChill: $problem")
     }
@@ -45,6 +52,7 @@ class MotChillProvider : MainAPI() {
         val title = Protocol.text(item, "title", "name")
         val slug = Protocol.text(item, "slug")
         if (title.isBlank() || slug.isBlank()) return null
+        if (MotProtocol.movieId(item).isNotBlank()) catalog[slug] = item
         val poster = Protocol.text(item, "poster_url", "poster_url_b2", "thumb_url").ifBlank { null }
         val year = Protocol.text(item, "year").toIntOrNull()
         return if (Protocol.series(item)) newTvSeriesSearchResponse(title, "$mainUrl/phim/$slug", TvType.TvSeries) {
@@ -69,8 +77,10 @@ class MotChillProvider : MainAPI() {
 
     override suspend fun load(url: String): LoadResponse {
         val slug = Protocol.slug(url)
-        val movie = api("movies/${Protocol.encoded(slug)}")
-        val id = Protocol.text(movie, "raw_movie_id")
+        // The catalog already supplies the numeric ID and full display metadata.
+        // Avoid a redundant detail request to an intermittently timing-out route.
+        val movie = catalog[slug] ?: api("movies/${Protocol.encoded(slug)}").also { catalog[slug] = it }
+        val id = MotProtocol.movieId(movie)
         require(id.matches(Regex("\\d+"))) { "MotChill thiếu mã phim" }
         val root = api("movies/$id/episodes")
         val episodes = MotProtocol.episodes(root)
@@ -80,7 +90,7 @@ class MotChillProvider : MainAPI() {
         val poster = Protocol.text(movie, "poster_url", "poster_url_b2", "thumb_url").ifBlank { null }
         val response = if (Protocol.series(movie) || episodes.size > 1) {
             newTvSeriesLoadResponse(title, canonical, TvType.TvSeries, episodes.map { ep ->
-                newEpisode(MotProtocol.saved(slug, ep)) {
+                newEpisode(MotProtocol.saved(slug, ep, id)) {
                     name = Protocol.text(ep, "episode_label", "slug")
                     episode = Protocol.text(ep, "order_index").toIntOrNull()
                     posterUrl = poster
@@ -89,7 +99,7 @@ class MotChillProvider : MainAPI() {
                 showStatus = if (Protocol.text(movie, "status") == "completed") ShowStatus.Completed else ShowStatus.Ongoing
             }
         } else newMovieLoadResponse(title, canonical, TvType.Movie,
-            episodes.firstOrNull()?.let { MotProtocol.saved(slug, it) } ?: "{}")
+            episodes.firstOrNull()?.let { MotProtocol.saved(slug, it, id) } ?: "{}")
         response.posterUrl = poster
         response.backgroundPosterUrl = Protocol.text(movie, "backdrop_url", "thumb_url").ifBlank { null }
         response.plot = Jsoup.parse(Protocol.text(movie, "description")).text()
@@ -107,8 +117,9 @@ class MotChillProvider : MainAPI() {
         val saved = runCatching { Protocol.json(data) }.getOrNull()
         val sources = if (saved != null && saved.isObject && saved.has("movieSlug")) {
             val slug = Protocol.slug(Protocol.text(saved, "movieSlug"))
-            val movie = api("movies/${Protocol.encoded(slug)}")
-            val id = Protocol.text(movie, "raw_movie_id")
+            val id = MotProtocol.movieId(saved).ifBlank {
+                MotProtocol.movieId(catalog[slug] ?: api("movies/${Protocol.encoded(slug)}"))
+            }
             require(id.matches(Regex("\\d+"))) { "MotChill thiếu mã phim" }
             val fresh = MotProtocol.episodes(api("movies/$id/episodes"))
                 .firstOrNull { Protocol.text(it, "slug") == Protocol.text(saved, "episodeSlug") }

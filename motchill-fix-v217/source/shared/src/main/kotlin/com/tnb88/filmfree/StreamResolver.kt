@@ -9,6 +9,7 @@ import okio.ByteString.Companion.decodeBase64
 import okhttp3.MediaType.Companion.toMediaType
 import okhttp3.RequestBody.Companion.toRequestBody
 import com.lagradost.cloudstream3.network.CloudflareKiller
+import kotlinx.coroutines.CancellationException
 
 object StreamResolver {
     const val UA = "Mozilla/5.0 (Linux; Android 14) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
@@ -76,16 +77,25 @@ object StreamResolver {
             }
             // Native-HLS endpoint used by the site's own player. Tokens are provided by the server.
             val host = URI(response.url).let { "${it.scheme}://${it.rawAuthority}" }
+            var lastProblem = "Không có máy chủ video sẵn sàng"
             for (tier in listOf("cdn", "m3u8", "b2")) {
                 if (!config.path("availability").path("has_$tier").asBoolean(false)) continue
                 val stream = "$host/embed/$siteId/$sourceId/stream?tier=$tier&native=1&embed_token=${Protocol.encoded(token)}"
-                val playlist = Http.get(stream, headers = requestHeaders, referer = response.url, timeout = 15)
-                if (playlist.code == 200 && playlist.text.trimStart().startsWith("#EXTM3U")) {
-                    emit(source, label, stream, response.url, callback)
+                try {
+                    suspend fun probe(url: String, segment: Boolean): MotHls.Reply {
+                        val fetched = app.get(url, headers = requestHeaders + mapOf("Origin" to host) +
+                            if (segment) mapOf("Range" to "bytes=0-1023") else emptyMap(),
+                            referer = response.url, timeout = 6)
+                        return MotHls.Reply(fetched.code, if (segment) "" else fetched.text,
+                            fetched.headers["Content-Type"].orEmpty(), fetched.url)
+                    }
+                    MotHls.verify(probe(stream, false), stream, ::probe)
+                    emit(source.copy(name = "${source.name} [$tier]"), label, stream, response.url, callback)
                     return true
+                } catch (cancel: CancellationException) { throw cancel }
+                catch (error: Exception) { lastProblem = "$tier: ${error.message ?: "không tải được video"}" }
                 }
-            }
-            throw ErrorLoadingException("Máy chủ MotChill chưa trả playlist phát được")
+            throw ErrorLoadingException("MotChill không tải được đoạn video đầu ($lastProblem)")
         }
 
         val bootstrap = document.selectFirst("#stream-bootstrap")?.data().orEmpty()

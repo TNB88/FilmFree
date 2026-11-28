@@ -31,8 +31,11 @@ object MotProtocol {
         return Protocol.array(root).filter { Protocol.text(it, "slug").isNotBlank() }
             .sortedBy { it.path("order_index").asInt(Int.MAX_VALUE) }
     }
-    fun saved(movieSlug: String, episode: JsonNode): String = Protocol.mapper.writeValueAsString(mapOf(
-        "movieSlug" to movieSlug, "episodeSlug" to Protocol.text(episode, "slug")))
+    fun movieId(node: JsonNode): String = Protocol.text(node, "raw_movie_id", "movieId", "id")
+        .takeIf { it.matches(Regex("\\d+")) }.orEmpty()
+    fun saved(movieSlug: String, episode: JsonNode, movieId: String = ""): String =
+        Protocol.mapper.writeValueAsString(mapOf("movieSlug" to movieSlug,
+            "episodeSlug" to Protocol.text(episode, "slug"), "movieId" to movieId))
     fun sources(episode: JsonNode, referer: String): List<MediaSource> =
         Protocol.array(episode.path("sources")).mapNotNull { source ->
             val link = Protocol.text(source, "play_url", "embed_url")

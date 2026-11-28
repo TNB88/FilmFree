@@ -1,0 +1,36 @@
+MOTCHILL v218 - SUA PHIM XOAY TAI - 28/11/2026
+
+Bang chung tren Fold5 SM-F946B, com.lagradost.cloudstream3 4.8.0:
+- App da tu tai v217 thanh cong; Tyson Fury phat HLS 1920x1080.
+- Rob Lowe, Moana, Phi Phong gap timeout o buoc API.
+- JoJo phan 6 lay duoc playlist nhung BUFFERING, position=0, buffer=0.
+- Probe bang token player that cua JoJo (source 149585):
+  cdn: playlist HTTP200, segment HTTP206 nhung image/png chi 70 byte.
+  m3u8: master HTTP200, variant HTTP404.
+  b2: playlist HTTP200, segment HTTP206 video/mp2t, doc du 1024 byte Range.
+  Khong luu token, sig, URL segment co han vao source cong khai.
+
+Da sua trong v218:
+- Kiem tra playlist, variant va GET Range doan video dau truoc khi tra link.
+- Loai HTTP loi va HTML/JSON/anh (ke ca PNG HTTP200/206).
+- Neu tier cdn/m3u8 khong phat duoc, thu tier tiep theo do player cong bo.
+- Hien ten tier [cdn], [m3u8], [b2] trong nguon de de chan doan.
+- HLS probe dung cung User-Agent, Origin, Referer voi trinh phat.
+- Dung numeric ID va metadata san trong catalog; cache RAM gioi han 256 phim.
+- Luu movieId cung movieSlug/episodeSlug, khong luu embed co han.
+- Khi bam play van doc lai episodes de lay token/link moi; tuong thich du lieu
+  tap v216/v217 chua co movieId.
+- API moi alias chi thu mot lan 10 giay thay vi lap 15 giay x2; bao ro
+  route API bi loi. May chu khong phan hoi van co the lam phim khong mo duoc.
+- Chi thay MotChillProvider.cs3; giu nguyen cac plugin khac va muc da an.
+
+Build/test:
+- Build SDK35/D8 37/JDK21 thanh cong, manifest version218, entry class cu.
+- 8 test don vi dat, khong loi. Test phan biet playlist200/segment403,
+  HTML200, PNG206; relative/master HLS; movieId an toan, khong luu sig.
+- Native HLS v217 da duoc xac nhan phat Tyson Fury tren Fold5.
+- Ket qua probe B2 tren PC chua thay the cho thu v218 tren thiet bi.
+
+Cap nhat kho FilmFree, cap nhat MotChill v218, dong/mo lai Chim TV.
+Mo lai trang phim (khong chi bam tiep tren player cu dang xoay).
+Source: motchill-fix-v217/source (thu muc giu ten cu de bao toan lich su).

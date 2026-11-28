@@ -2,7 +2,7 @@ import java.util.zip.ZipOutputStream
 import java.util.zip.ZipEntry
 import java.util.zip.ZipFile
 
-version = 217
+version = 218
 
 cloudstream {
     description = "MotChill: remote GitHub, theo tên miền API mới, dự phòng khi máy chủ cấu hình lỗi; làm mới link phát."
@@ -21,7 +21,7 @@ tasks.named("make") {
         val dex = layout.buildDirectory.file("intermediates/classes.dex").get().asFile
         require(dex.isFile && dex.length() > 0) { "Missing compiled classes.dex" }
         val output = layout.buildDirectory.file("MotChillProvider.cs3").get().asFile
-        val manifest = """{"requiresResources":false,"version":217,"pluginClassName":"com.anhdaden.MotChillPlugin","name":"MotChillProvider"}"""
+        val manifest = """{"requiresResources":false,"version":218,"pluginClassName":"com.anhdaden.MotChillPlugin","name":"MotChillProvider"}"""
         ZipOutputStream(output.outputStream()).use { zip ->
             for ((name, bytes) in listOf("manifest.json" to manifest.toByteArray(Charsets.UTF_8), "classes.dex" to dex.readBytes())) {
                 val entry = ZipEntry(name)
